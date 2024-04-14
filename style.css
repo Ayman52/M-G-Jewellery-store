@@ -178,3 +178,97 @@ footer {
   font-size: 1.2rem;
   color: whitesmoke;
 }
+/* /////////////////////// */
+@media screen and (min-width: 780px) and (max-width: 1036px) {
+  header img {
+    width: 45rem;
+  }
+  #navbar li a {
+    font-size: 2rem;
+  }
+  #hero_heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 780px) {
+  header img {
+    width: 30rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #navbar li a {
+    font-size: 1.3rem;
+  }
+  #hero_heading {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-left img {
+    width: 10rem;
+  }
+  #address,
+  #address-text,
+  #copy-rights {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  header img {
+    width: 18rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #navbar {
+    gap: 1.4rem;
+  }
+  #navbar li a {
+    font-size: 1.2rem;
+  }
+  #hero_heading {
+    font-size: 1.8rem;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  #hero-btn {
+    font-size: 1rem;
+  }
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #services-anniversary {
+    width: 20rem;
+  }
+  #services-wedding {
+    width: 20rem;
+  }
+  #services-engagement {
+    width: 20rem;
+  }
+  .services div h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .products-heading {
+    font-size: 1.5rem;
+  }
+  .footer-left img {
+    width: 5rem;
+  }
+  #address,
+  #address-text,
+  #copy-rights {
+    font-size: 0.5rem;
+  }
+}
